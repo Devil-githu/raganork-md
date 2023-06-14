@@ -14,7 +14,7 @@ function checkLinks(links, allowedWords) {
           isAllowed = true; // Word is allowed
           break;
         }
-        isAllowed = false; // Word is not allowed
+        isAllowed = true; // Word is not allowed
       }
       
         testArray.push(isAllowed)
